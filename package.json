@@ -1,0 +1,30 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaRaDoX175/TelegramBot_repo.git"
+  },
+  "author": "Ruslan Absalyamov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaRaDoX175/TelegramBot_repo/issues"
+  },
+  "homepage": "https://github.com/PaRaDoX175/TelegramBot_repo#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.12.2",
+    "telegraf-session-local": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6"
+  }
+}
